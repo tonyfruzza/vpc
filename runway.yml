@@ -1,9 +1,6 @@
 ---
-# See full syntax at https://docs.onica.com/projects/runway
 deployments:
   - modules:
       - vpc.cfn
-
-      # - etc...
     regions:
-      - us-east-2
+      - us-east-1
