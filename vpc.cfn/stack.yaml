@@ -1,0 +1,10 @@
+namespace: ${namespace}
+cfngin_bucket: ${cfngin_bucket_name}
+
+sys_path: ./
+
+stacks:
+  img-mgr:
+    template_path: templates/vpc.yml  # also supports json templates
+    variables:
+       EnvironmentName: ${environment}
